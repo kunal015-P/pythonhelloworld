@@ -4,7 +4,7 @@
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/atulkamble/pythonhelloworld.git'
+                git branch: 'main', url: 'https://github.com/kunal015-P/pythonhelloworld.git'
             }
         }
 
