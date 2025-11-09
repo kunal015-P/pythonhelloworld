@@ -32,5 +32,14 @@
                 }
             }
         }
+      stage('Stage updated by Mithare') {
+            steps {
+                script {
+                    echo 'Updated by Mithare'
+                
+            }
+        }
+    } 
+                   
     }
 }
