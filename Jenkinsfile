@@ -25,5 +25,12 @@
                 }
             }
         }
+       stage('Stage updated by Kunal') {
+            steps {
+                script {
+                    echo 'Updated by kunal'
+                }
+            }
+        }
     }
 }
