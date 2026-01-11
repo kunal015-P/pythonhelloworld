@@ -1,3 +1,4 @@
+
  pipeline {
     agent any
 
@@ -13,6 +14,14 @@
                 script {
                     dockerImage = docker.build('python-hello-world')
                     echo 'Docker Image build suceesfull'
+                }
+            }
+        }
+	
+	stage('Updated by kunal') {
+	    steps {
+		script {
+		    ech 'Welcome To Cloud'
                 }
             }
         }
